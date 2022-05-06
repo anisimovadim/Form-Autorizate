@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+body{
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+main .containare:nth-child(2){
+    width: 417px;
+    margin: auto;
+}
+.containare:nth-child(1){
+    position: relative;
+    width: 55%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    width: 100%;
+    height: 100vh;
+    background-color: #b97d8d44;
+    position: absolute;
+    top: 0;
+    background-size: 100%;
+
+}
+.img_block{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+input[type="password"]::-ms-reveal{
+    display: none;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.line p{
+    text-align: center;
+}
+input{
+    width: 100%;
+    height: 45px;
+}
+.netw{
+    width: 100%;
+    text-align: center;
+}
+.netw_item{
+    display: block;
+    width: 100%;
+    padding: 13.5px 0;
+    background-color: #7EBCC3;
+    border-radius: 7px;
+}
+.netw_item1{
+    display: block;
+    width: 100%;
+    background-color: white;
+    border: black 1px solid;
+    padding: 13.5px 0;
+    border-radius: 7px;
+}
