@@ -89,7 +89,17 @@ input{
 }
 input:nth-child(2){
     border: #7EBCC3 2px solid;
+    background-image: url(./img/emaile_box.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position-x: 96%;
     
+}
+input:nth-child(4){
+    background-image: url(./img/key_svg.svg);
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-position-x: 96%;
 }
 input:focus{
     outline: none;
@@ -115,6 +125,9 @@ input:focus{
 .netw_item1{
     background-color: white;
     border: black 1px solid;
+    background-image: url(./img/google_svg.svg);
+    background-repeat: no-repeat;
+    background-position: 29% center;
 }
 .netw_item2{
     color: white;
